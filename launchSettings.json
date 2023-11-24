@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "demodocker1.api": "StartDebugging",
+        "demodocker2.api": "StartDebugging",
+        "demodocker3.api": "StartDebugging",
+        "demodocker4.api": "StartDebugging"
+      }
+    }
+  }
+}

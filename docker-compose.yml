@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  demodocker1.api:
+    image: ${DOCKER_REGISTRY-}demodocker1api
+    build:
+      context: .
+      dockerfile: DemoDocker1.API/Dockerfile
+
+  demodocker2.api:
+    image: ${DOCKER_REGISTRY-}demodocker2api
+    build:
+      context: .
+      dockerfile: DemoDocker2.API/Dockerfile
+
+
+  demodocker3.api:
+    image: ${DOCKER_REGISTRY-}demodocker3api
+    build:
+      context: .
+      dockerfile: DemoDocker3.API/Dockerfile
+
+
+  demodocker4.api:
+    image: ${DOCKER_REGISTRY-}demodocker4api
+    build:
+      context: .
+      dockerfile: DemoDocker4.API/Dockerfile
+
